@@ -10,7 +10,7 @@ import (
 	"github.com/ProtonMail/gluon/benchmarks/gluon_bench/utils"
 	"github.com/ProtonMail/gluon/internal/hash"
 	"github.com/ProtonMail/gluon/profiling"
-	_ "github.com/mattn/go-sqlite3"
+	_ "gosqlite.org"
 	"github.com/sirupsen/logrus"
 )
 

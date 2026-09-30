@@ -7,7 +7,7 @@ import (
 
 	"github.com/ProtonMail/gluon/db"
 	"github.com/ProtonMail/gluon/imap"
-	"github.com/mattn/go-sqlite3"
+	sqlite3 "gosqlite.org"
 )
 
 type dbFetcher interface {
@@ -49,7 +49,7 @@ func MapLabelsUniqueConstraintError(
 	err error,
 ) error {
 	var sqliteErr sqlite3.Error
-	if !errors.As(err, &sqliteErr) || sqliteErr.ExtendedCode != sqlite3.ErrConstraintUnique {
+	if !errors.As(err, &sqliteErr) || sqliteErr.ExtendedCode() != int(sqlite3.ErrConstraintUnique) {
 		return err
 	}
 

@@ -17,7 +17,7 @@ import (
 	"github.com/ProtonMail/gluon/observability"
 	"github.com/ProtonMail/gluon/observability/metrics"
 	"github.com/google/uuid"
-	_ "github.com/mattn/go-sqlite3"
+	_ "gosqlite.org"
 	"github.com/sirupsen/logrus"
 )
 

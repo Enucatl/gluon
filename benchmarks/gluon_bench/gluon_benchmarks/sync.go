@@ -15,7 +15,7 @@ import (
 	"github.com/ProtonMail/gluon/imap"
 	"github.com/ProtonMail/gluon/internal/hash"
 	"github.com/google/uuid"
-	_ "github.com/mattn/go-sqlite3"
+	_ "gosqlite.org"
 	"github.com/sirupsen/logrus"
 )
 

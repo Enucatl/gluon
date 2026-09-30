@@ -29,7 +29,7 @@ import (
 	"github.com/ProtonMail/gluon/store"
 	"github.com/ProtonMail/gluon/version"
 	"github.com/ProtonMail/gluon/watcher"
-	_ "github.com/mattn/go-sqlite3"
+	_ "gosqlite.org"
 	"github.com/sirupsen/logrus"
 )
 
