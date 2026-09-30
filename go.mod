@@ -10,35 +10,27 @@ require (
 	github.com/emersion/go-imap v1.2.1
 	github.com/emersion/go-imap-uidplus v0.0.0-20200503180755-e75854c361e9
 	github.com/google/uuid v1.6.0
+	github.com/mattn/go-sqlite3 v1.14.42
 	github.com/pierrec/lz4/v4 v4.1.26
 	github.com/pkg/profile v1.7.0
 	github.com/sirupsen/logrus v1.9.4
 	github.com/stretchr/testify v1.11.1
 	go.uber.org/goleak v1.3.0
 	go.uber.org/mock v0.6.0
-	golang.org/x/sys v0.46.0
-	golang.org/x/text v0.38.0
+	golang.org/x/sys v0.43.0
+	golang.org/x/text v0.36.0
 	gopkg.in/yaml.v3 v3.0.1
-	gosqlite.org v0.14.0
 )
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/emersion/go-sasl v0.0.0-20220912192320-0145f2c60ead // indirect
 	github.com/felixge/fgprof v0.9.3 // indirect
-	github.com/google/pprof v0.0.0-20250317173921-a4b03ec1a45e // indirect
+	github.com/google/pprof v0.0.0-20211214055906-6f57359322fd // indirect
 	github.com/kr/pretty v0.3.1 // indirect
-	github.com/mattn/go-isatty v0.0.20 // indirect
-	github.com/ncruces/go-strftime v1.0.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/rogpeppe/go-internal v1.10.0 // indirect
 	golang.org/x/exp v0.0.0-20260312153236-7ab1446f8b90 // indirect
-	golang.org/x/sync v0.21.0 // indirect
+	golang.org/x/sync v0.20.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
-	modernc.org/libc v1.74.1 // indirect
-	modernc.org/mathutil v1.7.1 // indirect
-	modernc.org/memory v1.11.0 // indirect
-	modernc.org/sqlite v1.54.0 // indirect
 )

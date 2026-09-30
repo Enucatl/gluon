@@ -6,7 +6,7 @@ import (
 
 	"github.com/ProtonMail/gluon/imap"
 	"github.com/emersion/go-imap/client"
-	_ "gosqlite.org"
+	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/require"
 )
 
